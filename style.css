@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: aliceblue
+}
+
+.bar-container {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    max-height: 600px;
+}
+
+.bar {
+    color: yellow;
+    display: block;
+    background-color: yellow;
+    width: 4px;
+    border: 1px solid black;
+    margin: 1px;
+}
